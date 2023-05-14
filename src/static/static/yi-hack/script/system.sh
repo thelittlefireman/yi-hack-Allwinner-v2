@@ -40,7 +40,7 @@ log()
 
         if [ "$2" == "1" ]; then
             echo "" >> /tmp/sd/hack_debug.log
-            ps >> /tmp/sd/hack_debug.log
+            ps ww >> /tmp/sd/hack_debug.log
             echo "" >> /tmp/sd/hack_debug.log
             free >> /tmp/sd/hack_debug.log
             echo "" >> /tmp/sd/hack_debug.log
